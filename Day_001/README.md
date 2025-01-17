@@ -1,1 +1,1 @@
-## Day 1 - Beginner - Working with Variable in Python to Manage Data
+<h2 align='center'>Day 1 - Beginner - Working with Variable in Python to Manage </h2>
