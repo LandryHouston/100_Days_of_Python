@@ -1,0 +1,1 @@
+## Day 1 - Beginner - Working with Variable in Python to Manage Data
