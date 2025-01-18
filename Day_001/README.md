@@ -1,1 +1,1 @@
-<h2 align='center'>Day 1 - Beginner - Working with Variable in Python to Manage </h2>
+<h2 align='center'>Day 1</h2>
