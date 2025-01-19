@@ -4,4 +4,5 @@
 <li>Day 2 - Tip Calculator</li>
 <li>Day 3 - Treasure Island</li>
 <li>Day 4 - Rock Paper Scissors</li>
+<li>Day 5 - Password Generator</li>
 </ul>
