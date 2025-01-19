@@ -1,1 +1,1 @@
-<h2 align='center'>Day 4</h2>
+<h2 align='center'>Day 4 - Beginner - Randomization and Python Lists</h2>

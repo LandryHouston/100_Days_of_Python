@@ -1,0 +1,1 @@
+<h2 align='center'>Day 6 - Beginner - Python Functions & Karel</h2>

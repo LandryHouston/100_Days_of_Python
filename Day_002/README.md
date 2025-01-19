@@ -1,1 +1,1 @@
-<h2 align='center'>Day 2</h2>
+<h2 align='center'>Day 2 - Beginner - Understanding Data Types and How to Manipulate Strings</h2>
