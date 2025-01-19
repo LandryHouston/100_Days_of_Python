@@ -1,0 +1,1 @@
+<h2 align='center'>Day 7 - Beginner - Hangman</h2>
