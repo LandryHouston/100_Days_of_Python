@@ -1,1 +1,1 @@
-<h2 align='center'>Day 9 - Beginner - Function Parameters & Caesar Cipher</h2>
+<h2 align='center'>Day 9 - Beginner - Dictionaries, Nesting, and the Secret Auction</h2>
