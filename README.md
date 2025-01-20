@@ -8,4 +8,6 @@
 <li>Day 6 - Escaping the Maze</li>
 <li>Day 7 - Hangman</li>
 <li>Day 8 - Caesar Cipher</li>
+<li>Day 9 - Secret Auction</li>
+<li>Day 10 - Calculator</li>
 </ul>
