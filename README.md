@@ -7,4 +7,5 @@
 <li>Day 5 - Password Generator</li>
 <li>Day 6 - Escaping the Maze</li>
 <li>Day 7 - Hangman</li>
+<li>Day 8 - Caesar Cipher</li>
 </ul>
