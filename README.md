@@ -11,4 +11,5 @@
 <li>Day 9 - Secret Auction</li>
 <li>Day 10 - Calculator</li>
 <li>Day 11 - Blackjack</li>
+<li>Day 12 - Number Guessing Game</li>
 </ul>
