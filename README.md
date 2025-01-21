@@ -10,4 +10,5 @@
 <li>Day 8 - Caesar Cipher</li>
 <li>Day 9 - Secret Auction</li>
 <li>Day 10 - Calculator</li>
+<li>Day 11 - Blackjack</li>
 </ul>
