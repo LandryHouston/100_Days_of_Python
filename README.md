@@ -14,4 +14,5 @@
 <li>Day 12 - Number Guessing Game</li>
 <li>Day 13 - Debugging</li>
 <li>Day 14 - Higher Lower Game</li>
+<li>Day 15 - Coffee Machine</li>
 </ul>
