@@ -12,4 +12,6 @@
 <li>Day 10 - Calculator</li>
 <li>Day 11 - Blackjack</li>
 <li>Day 12 - Number Guessing Game</li>
+<li>Day 13 - Debugging</li>
+<li>Day 14 - Higher Lower Game</li>
 </ul>
