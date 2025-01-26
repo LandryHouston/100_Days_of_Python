@@ -19,4 +19,6 @@
 <li>Day 17 - Quiz Game</li>
 <li>Day 18 - The Hirst Painting</li>
 <li>Day 19 - Turtle Race</li>
+<li>Day 20 - Snake Game Part 1</li>
+<li>Day 21 - Snake Game Part 2</li>
 </ul>
