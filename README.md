@@ -21,4 +21,5 @@
 <li>Day 19 - Turtle Race</li>
 <li>Day 20 - Snake Game Part 1</li>
 <li>Day 21 - Snake Game Part 2</li>
+<li>Day 22 - Pong Arcade Game</li>
 </ul>
