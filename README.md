@@ -23,5 +23,5 @@
 <li>Day 21 - Snake Game Part 2</li>
 <li>Day 22 - Pong Arcade Game</li>
 <li>Day 23 - Turtle Crossing</li>
-<li>Day 24 - </li>
+<li>Day 24 - Snake Game High Score</li>
 </ul>
