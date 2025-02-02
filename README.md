@@ -24,5 +24,5 @@
 <li>Day 22 - Pong Arcade Game</li>
 <li>Day 23 - Turtle Crossing</li>
 <li>Day 24 - Snake Game High Score</li>
-<li>Day 25 - </li>
+<li>Day 25 - 50 States Game</li>
 </ul>
