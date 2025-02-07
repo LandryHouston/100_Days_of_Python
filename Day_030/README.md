@@ -1,0 +1,1 @@
+<h2 align='center'>Day 30 - Intermediate - Errors, Exceptions and JSON Data: Improving the Password</h2>
