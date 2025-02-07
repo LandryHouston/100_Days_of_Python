@@ -29,5 +29,5 @@
 <li>Day 27 - Miles to Kilometers Converter</li>
 <li>Day 28 - Pomodoro</li>
 <li>Day 29 - Password Manager</li>
-<li>Day 30 - </li>
+<li>Day 30 - Improved Password Manager</li>
 </ul>
