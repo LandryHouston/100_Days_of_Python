@@ -38,6 +38,19 @@ def search_password():
                 email = data_lower[website]['email']
                 password = data_lower[website]['password']
 
+                # Hide the window before positioning
+                info_window.withdraw()
+                # Wait for window to be fully rendered, then center it
+                info_window.update()
+
+                x_pos = (info_window.winfo_screenwidth() // 2) - (info_window.winfo_width() // 2)
+                y_pos = (info_window.winfo_screenheight() // 2) - (info_window.winfo_height() // 2)
+                # Set the geometry of the window
+                info_window.geometry(f'+{x_pos+40}+{y_pos+100}')
+
+                # Show the window after positioning
+                info_window.deiconify()
+
                 # Display the information in the new window
                 email_label = Label(info_window, text=f"Email/Username: {email}")
                 email_label.grid(column=0, row=0, sticky='W', padx=40, pady=(40, 20))
@@ -45,10 +58,10 @@ def search_password():
                 password_label = Label(info_window, text=f"Password: {password}")
                 password_label.grid(column=0, row=1, sticky='W', padx=40, pady=(0, 40))
 
-                copy_email_button = Button(info_window, text="Copy Email", command=pyperclip.copy(email))
+                copy_email_button = Button(info_window, text="Copy Email", command=lambda: pyperclip.copy(email))
                 copy_email_button.grid(column=1, row=0, sticky="EW", padx=(0, 20), pady=(40, 20))
 
-                copy_password_button = Button(info_window, text="Copy Password", command=pyperclip.copy(password))
+                copy_password_button = Button(info_window, text="Copy Password", command=lambda: pyperclip.copy(password))
                 copy_password_button.grid(column=1, row=1, sticky="EW", padx=(0, 20), pady=(0, 40))
             else:
                 messagebox.showerror(title="Password Manager", message=f"No credentials for {website} exists.")
@@ -82,8 +95,23 @@ def export():
 
 
 window = Tk()
-window.title("Passsword Manager")
+window.title("Password Manager")
 window.config(padx=20, pady=20)
+
+# Hide the window before positioning
+window.withdraw()
+# Wait for window to be fully rendered, then center it
+window.update()
+
+# Calculate position to center the window
+x_pos = (window.winfo_screenwidth() // 2) - (window.winfo_width() // 2)
+y_pos = (window.winfo_screenheight() // 2) - (window.winfo_height() // 2)
+
+# Set the geometry of the window
+window.geometry(f'+{x_pos}+{y_pos}')
+
+# Show the window after positioning
+window.deiconify()
 
 canvas = Canvas(height=200, width=200)
 logo_img = PhotoImage(file="logo.png")
@@ -121,6 +149,5 @@ generate_password_button.grid(column=2, row=3, sticky="EW", padx=(0, 40))
 
 add_button = Button(text="Add", width=36, command=export)
 add_button.grid(column=1, row=4, columnspan=2, sticky="EW", padx=(20, 40))
-
 
 window.mainloop()
