@@ -1,0 +1,1 @@
+<h2 align='center'>Day 32 - Intermediate+ - Send Email (smtplib) & Manage Dates (datetime)</h2>
