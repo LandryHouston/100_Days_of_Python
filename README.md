@@ -31,4 +31,5 @@
 <li>Day 29 - Password Manager</li>
 <li>Day 30 - Improved Password Manager</li>
 <li>Day 31 - Flash Card App</li>
+<li>Day 32 - Automated Birthday Wisher</li>
 </ul>
