@@ -1,1 +1,1 @@
-<h2 align='center'>Day 33 - Intermediate+ - API Endpoints and API Parameters - ISS Overhead Notifier</h2>
+<h2 align='center'>Day 34 - Intermediate+ - API Practice - Creating a GUI Quiz App</h2>
