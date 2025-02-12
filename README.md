@@ -33,5 +33,5 @@
 <li>Day 31 - Flash Card App</li>
 <li>Day 32 - Automated Birthday Wisher</li>
 <li>Day 33 - ISS Overhead Notifier</li>
-<li>Day 34 - </li>
+<li>Day 34 - GUI Quiz App</li>
 </ul>
