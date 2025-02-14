@@ -9,9 +9,9 @@ OWM_API_KEY = config["OWM_API_KEY"]
 twilio_account_sid = config["twilio_account_sid"]
 twilio_auth_token = config["twilio_auth_token"]
 twilio_messaging_service_sid = config["twilio_messaging_service_sid"]
+phone_number = config["phone_number"]
 
 zipcode = "89113"
-phone_number = '5038052323'
 
 parameters = {
     "zip": zipcode,
