@@ -47,5 +47,19 @@ value_config = {
     "quantity": '120'
 }
 
-# response = requests.post(url=value_endpoint, json=value_config, headers=headers)
-# print(response.text)
+response = requests.post(url=value_endpoint, json=value_config, headers=headers)
+print(response.text)
+
+update_endpoint = f"{pixela_endpoint}/{USERNAME}/graphs/{GRAPHID}/{datetime.now().strftime('%Y%m%d')}"
+
+new_pixed_data = {
+    "quantity": "60"
+}
+
+#response = requests.put(url=update_endpoint, json=new_pixed_data, headers=headers)
+#print(response.text)
+
+delete_endpoint = f"{pixela_endpoint}/{USERNAME}/graphs/{GRAPHID}/{datetime.now().strftime('%Y%m%d')}"
+
+#response = requests.delete(url=delete_endpoint, headers=headers)
+#print(response.text)
