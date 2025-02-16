@@ -1,1 +1,1 @@
-<h2 align='center'>Day 36 - Intermediate+ - Stock Trading News Alert Project</h2>
+<h2 align='center'>Day 37 - Intermediate+ - Habit Tracking Project: API Post Requests & Headers</h2>
