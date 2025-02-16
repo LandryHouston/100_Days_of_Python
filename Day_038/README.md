@@ -1,1 +1,1 @@
-<h2 align='center'>Day 36 - Intermediate+ - Stock Trading News Alert Project</h2>
+<h2 align='center'>Day 38 - Intermediate+ - Workout Tracking Using Google Sheets</h2>
