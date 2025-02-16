@@ -36,4 +36,6 @@
 <li>Day 34 - GUI Quiz App</li>
 <li>Day 35 - Rain SMS Notifier</li>
 <li>Day 36 - Stock Trading News Notifier</li>
+<li>Day 37 - Habit Tracking</li>
+<li>Day 38 - Workout Tracker</li>
 </ul>
