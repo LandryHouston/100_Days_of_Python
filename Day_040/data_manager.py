@@ -1,33 +1,27 @@
-import os
+import yaml
 import requests
-from requests.auth import HTTPBasicAuth
-from dotenv import load_dotenv
 
-# Load environment variables from .env file
-load_dotenv()
+with open("config.yaml", "r") as f:
+    config = yaml.safe_load(f)
 
-SHEETY_PRICES_ENDPOINT = YOUR ENDPOINT HERE
-
+SHEETY_PRICES_ENDPOINT = config['SHEETY_PRICES_ENDPOINT']
+SHEETY_USERS_ENDPOINT = config['SHEETY_USERS_ENDPOINT']
+SHEETY_TOKEN = config['SHEETY_TOKEN']
 
 class DataManager:
 
     def __init__(self):
-        self._user = os.environ["SHEETY_USRERNAME"]
-        self._password = os.environ["SHEETY_PASSWORD"]
-        self._authorization = HTTPBasicAuth(self._user, self._password)
         self.destination_data = {}
+        self.bearer_headers = {
+            "Authorization": f"Bearer {SHEETY_TOKEN}"
+            }
 
     def get_destination_data(self):
-        # Use the Sheety API to GET all the data in that sheet and print it out.
-        response = requests.get(url=SHEETY_PRICES_ENDPOINT)
+        response = requests.get(url=SHEETY_PRICES_ENDPOINT, headers=self.bearer_headers)
         data = response.json()
         self.destination_data = data["prices"]
-        # Try importing pretty print and printing the data out again using pprint() to see it formatted.
-        # pprint(data)
         return self.destination_data
 
-    # In the DataManager Class make a PUT request and use the row id from sheet_data
-    # to update the Google Sheet with the IATA codes. (Do this using code).
     def update_destination_codes(self):
         for city in self.destination_data:
             new_data = {
@@ -37,6 +31,12 @@ class DataManager:
             }
             response = requests.put(
                 url=f"{SHEETY_PRICES_ENDPOINT}/{city['id']}",
-                json=new_data
+                json=new_data,
+                headers=self.bearer_headers
             )
-            print(response.text)
+
+    def get_customer_emails(self):
+        response = requests.get(url=SHEETY_USERS_ENDPOINT, headers=self.bearer_headers)
+        data = response.json()
+        self.customer_data = data["users"]
+        return self.customer_data
