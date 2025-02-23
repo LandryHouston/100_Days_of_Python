@@ -40,4 +40,6 @@
 <li>Day 38 - Workout Tracker</li>
 <li>Day 39 - Flight Deal Finder</li>
 <li>Day 40 - Flight Club</li>
+<li>Day 41 - Movie Ranking</li>
+<li>Day 42 - Birthday Invite Website</li>
 </ul>
