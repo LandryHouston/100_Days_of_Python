@@ -1,1 +1,1 @@
-<h2 align='center'>Day 43 - Intermediate+ - introduction to CSS</h2>
+<h2 align='center'>Day 43 - Intermediate+ - Introduction to CSS</h2>
