@@ -45,5 +45,5 @@
 <li>Day 43 - Color Vocab Website</li>
 <li>Day 44 - Motivational Poster Website<li>
 <li>Day 45 - 100 Movies that you Must Watch</li>
-<li>Day 46 - </li>
+<li>Day 46 - Spotify playlist creator using Billboard Hot 100</li>
 </ul>
