@@ -44,4 +44,5 @@
 <li>Day 42 - Birthday Invite Website</li>
 <li>Day 43 - Color Vocab Website</li>
 <li>Day 44 - Motivational Poster Website<li>
+<li>Day 45 - 100 Movies that you Must Watch</li>
 </ul>
