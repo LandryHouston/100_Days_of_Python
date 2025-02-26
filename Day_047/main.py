@@ -39,9 +39,10 @@ for url, list_price in urls.items():
     title = soup.find('h1', id='title').text
     title = ' '.join(title.split())
 
-    price = soup.find("span", class_="a-price aok-align-center reinventPricePriceToPayMargin priceToPay").text
-    price_without_currency = price.replace('$','').strip()
-    price_as_float = float(price_without_currency)
+    price_dollar = soup.find("span", class_="a-price-whole").text
+    price_cents= soup.find("span", class_="a-price-fraction").text
+    price_as_float = float(f"{price_dollar}{price_cents}")
+    print(title, price_as_float)
 
     if price_as_float < list_price:
         connection = smtplib.SMTP("smtp.gmail.com", 587)
