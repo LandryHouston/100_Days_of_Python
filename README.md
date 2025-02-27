@@ -47,5 +47,5 @@
 <li>Day 45 - 100 Movies that you Must Watch</li>
 <li>Day 46 - Spotify playlist creator using Billboard Hot 100</li>
 <li>Day 47 - Automated Amazon Price Tracker</li>
-<li>Day 48 - </li>
+<li>Day 48 - Automated Cookie Clicker</li>
 </ul>
