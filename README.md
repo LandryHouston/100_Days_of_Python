@@ -43,7 +43,7 @@
 <li>Day 41 - Movie Ranking</li>
 <li>Day 42 - Birthday Invite Website</li>
 <li>Day 43 - Color Vocab Website</li>
-<li>Day 44 - Motivational Poster Website<li>
+<li>Day 44 - Motivational Poster Website</li>
 <li>Day 45 - 100 Movies that you Must Watch</li>
 <li>Day 46 - Spotify playlist creator using Billboard Hot 100</li>
 <li>Day 47 - Automated Amazon Price Tracker</li>
