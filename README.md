@@ -49,4 +49,5 @@
 <li>Day 47 - Automated Amazon Price Tracker</li>
 <li>Day 48 - Automated Cookie Clicker</li>
 <li>Day 49 - LinkedIn Automating Job Applications</li>
+<li>Day 50 - Auto Tinder Swiping Bot</li>
 </ul>
