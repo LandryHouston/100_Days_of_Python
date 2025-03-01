@@ -48,5 +48,5 @@
 <li>Day 46 - Spotify playlist creator using Billboard Hot 100</li>
 <li>Day 47 - Automated Amazon Price Tracker</li>
 <li>Day 48 - Automated Cookie Clicker</li>
-<li>Day 49 - </li>
+<li>Day 49 - LinkedIn Automating Job Applications</li>
 </ul>
