@@ -3,6 +3,13 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException, ElementClickInterceptedException
 import time
+import yaml
+
+with open("config.yaml", "r") as f:
+    config = yaml.safe_load(f)
+    
+EMAIL = config['EMAIL']
+PASSWORD = config['PASSWORD']
 
 options = webdriver.ChromeOptions()
 options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0")
@@ -12,8 +19,8 @@ driver = webdriver.Chrome(options)
 
 driver.get('https://www.linkedin.com/jobs/')
 
-email = driver.find_element(By.ID, "session_key").send_keys("landryh@landryhouston.com")
-password = driver.find_element(By.ID, "session_password").send_keys("Lan.Hou_1999!", Keys.ENTER)
+email = driver.find_element(By.ID, "session_key").send_keys(EMAIL)
+password = driver.find_element(By.ID, "session_password").send_keys(PASSWORD, Keys.ENTER)
 time.sleep(3)
 
 search = driver.find_element(By.XPATH, "//input[@aria-label='Search by title, skill, or company']").send_keys("Data Analyst Remote", Keys.ENTER)
