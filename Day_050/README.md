@@ -1,1 +1,2 @@
 <h2 align='center'>Day 50 - Intermediate+ - Auto Tinder Swiping Bot</h2>
+<h4 align='center'>This project is almost impossible to complete with the verification needed to login. I am skipping this project.
