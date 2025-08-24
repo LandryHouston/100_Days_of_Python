@@ -51,5 +51,7 @@
 <li>Day 49 - LinkedIn Automating Job Applications</li>
 <li>Day 50 - Auto Tinder Swiping Bot</li>
 <li>Day 51 - Auto Twitter Complaint Bot</li>
-<li>Day 52 - </li>
+<li>Day 52 - Instagram Follower Bot</li>
+<li>Day 53 - Zillow Data Entry Job Automation</li>
+<li>Day 54 - </li>
 </ul>
